@@ -47,13 +47,19 @@ int main(){
 
     Student s5("Prashant Kumar",20,8.7);
 
+    Student s6=s1; //Deep Copy
+    s6.name="Natic";
 
+    Student s7(s1);
+    s7.name="Pushpendra"; //Copy Constructor- Deep Copy
 
     cout<<s1.name<<" "<<s1.rno<<" "<<s1.gpa<<endl;
     cout<<s2.name<<" "<<s2.rno<<" "<<s2.gpa<<endl;
     cout<<s3.name<<" "<<s3.rno<<" "<<s3.gpa<<endl;
     cout<<s4.name<<" "<<s4.rno<<" "<<s4.gpa<<endl;
     cout<<s5.name<<" "<<s5.rno<<" "<<s5.gpa<<endl;
+    cout<<s6.name<<" "<<s6.rno<<" "<<s6.gpa<<endl;
+    cout<<s7.name<<" "<<s7.rno<<" "<<s7.gpa<<endl;
 
     return 0;
 }
