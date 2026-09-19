@@ -30,5 +30,5 @@ int main(){
     
 }
 
-?// Getter and Setter ka use mainly private data member ko safely acces and modify kerne ke liye hota hai
+// Getter and Setter ka use mainly private data member ko safely acces and modify kerne ke liye hota hai
 //3 main access modifire : public:  private:  and protected:
